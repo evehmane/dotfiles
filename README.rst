@@ -3,7 +3,7 @@ Installation
 
 To install clone the repository and run the ``sync`` script::
 
-    git clone https://github.com/jpvanhal/dotfiles.git
+    git clone https://github.com/evehmane/dotfiles.git
     cd dotfiles
     ./sync.sh
 
