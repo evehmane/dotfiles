@@ -35,6 +35,13 @@ alias bottomright   corner bottom-right resize:screenSizeX/2;screenSizeY/2
 layout bigscreen 'Sublime Text 2':REPEAT ${lefthalf}
 layout bigscreen 'Google Chrome':REPEAT ${righthalf}
 layout bigscreen 'Pääte':REPEAT ${bottomleft}
+layout bigscreen 'TextWrangler':REPEAT ${righthalf}
+
+# laptop
+layout laptop 'Sublime Text 2':REPEAT ${full}
+layout laptop 'Google Chrome':REPEAT ${full}
+layout laptop 'Pääte':REPEAT ${leftmost}
+layout laptop 'TextWrangler':REPEAT ${rightmost}
 
 
 # ======================================
@@ -47,6 +54,10 @@ alias hyper ctrl;shift;alt;cmd
 bind left:${hyper} ${lefthalf}
 bind up:${hyper} ${full}
 bind right:${hyper} ${righthalf}
+bind u:${hyper} ${bottomleft}
+bind i:${hyper} ${topleft}
+bind o:${hyper} ${topright}
+bind p:${hyper} ${bottomright}
 
 # Resize Bindings
 #bind l:${hyper} ${leftmost}
@@ -59,12 +70,14 @@ bind d:${hyper} focus 'Google Chrome'
 bind f:${hyper} focus 'TextWrangler'
 
 # Hints
-bind e:${hyper} hint ASDFGHJKLQWERTYUIOPCVBN # use whatever keys you want
+bind e:${hyper} hint ASDFGHJKLQWERTYUIOP
 
-# Grid
-bind w:${hyper} grid padding:5 0:2,2 
+# Grids
+bind r:${hyper} grid padding:5 0:2,2 
 
 # Layouts
 bind q:${hyper} layout bigscreen
+bind w:${hyper} layout laptop
 
 #bind tab:${hyper} switch
+
