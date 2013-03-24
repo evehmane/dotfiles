@@ -58,17 +58,19 @@ layout notes 'Google Chrome':REPEAT ${righthalf}
  
 alias hyper ctrl;shift;alt;cmd
 
-# Layouts
+# Layouts (first keyboard row)
 bind q:${hyper} layout laptop
 bind w:${hyper} layout bigscreen
 bind e:${hyper} sequence layout testing | focus 'Sublime Text 2' | focus 'Pääte'
 bind r:${hyper} sequence layout notes | focus 'Google Chrome' | focus 'TextWrangler'
 
-# App bindings
+# App bindings (second keyboard row)
 bind a:${hyper} focus 'Pääte'
 bind s:${hyper} focus 'Sublime Text 2'
 bind d:${hyper} focus 'Google Chrome'
 bind f:${hyper} focus 'TextWrangler'
+bind g:${hyper} focus 'Wunderlist'
+bind h:${hyper} focus 'Evernote'
 
 # Grids
 bind z:${hyper} grid padding:5 0:2,2 
