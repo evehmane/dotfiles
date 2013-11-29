@@ -70,7 +70,7 @@ bind s:${hyper} focus 'Sublime Text 2'
 bind d:${hyper} focus 'Google Chrome'
 bind f:${hyper} focus 'TextWrangler'
 bind g:${hyper} focus 'Wunderlist'
-bind h:${hyper} focus 'Evernote'
+bind h:${hyper} focus 'Flowdock'
 
 # Grids
 bind z:${hyper} grid padding:5 0:2,2 
