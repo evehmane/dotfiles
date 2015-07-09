@@ -10,7 +10,7 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 
-# Make Sublime Text 2 the default text editor
+# Make Sublime Text the default text editor
 export EDITOR="subl -w"
 
 # Use syntax highlight with less. Requires source-highlight.
