@@ -34,18 +34,18 @@ alias bottomright   corner bottom-right resize:screenSizeX/2;screenSizeY/2
 # bigscreen
 layout bigscreen 'Sublime Text':REPEAT ${lefthalf}
 layout bigscreen 'Google Chrome':REPEAT ${righthalf}
-layout bigscreen 'Pääte':REPEAT ${bottomleft}
+layout bigscreen 'iTerm2':REPEAT ${bottomleft}
 layout bigscreen 'TextWrangler':REPEAT ${righthalf}
 
 # laptop
 layout laptop 'Sublime Text':REPEAT ${full}
 layout laptop 'Google Chrome':REPEAT ${full}
-layout laptop 'Pääte':REPEAT ${leftmost}
+layout laptop 'iTerm2':REPEAT ${leftmost}
 layout laptop 'TextWrangler':REPEAT ${righthalf}
 
 # testing
 layout testing 'Sublime Text':REPEAT ${lefthalf}
-layout testing 'Pääte':REPEAT ${righthalf}
+layout testing 'iTerm2':REPEAT ${righthalf}
 
 # notes
 layout notes 'TextWrangler':REPEAT ${lefthalf}
@@ -61,11 +61,11 @@ alias hyper ctrl;shift;alt;cmd
 # Layouts (first keyboard row)
 bind q:${hyper} layout laptop
 bind w:${hyper} layout bigscreen
-bind e:${hyper} sequence layout testing | focus 'Sublime Text' | focus 'Pääte'
+bind e:${hyper} sequence layout testing | focus 'Sublime Text' | focus 'iTerm2'
 bind r:${hyper} sequence layout notes | focus 'Google Chrome' | focus 'TextWrangler'
 
 # App bindings (second keyboard row)
-bind a:${hyper} focus 'Pääte'
+bind a:${hyper} focus 'iTerm2'
 bind s:${hyper} focus 'Sublime Text'
 bind d:${hyper} focus 'Google Chrome'
 bind f:${hyper} focus 'TextWrangler'
