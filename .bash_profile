@@ -43,3 +43,5 @@ use_env() {
 }
 
 export PATH=/Applications/Postgres.app/Contents/Versions/9.5/bin:$PATH;
+
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
