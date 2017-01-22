@@ -56,7 +56,8 @@ layout notes 'Google Chrome':REPEAT ${righthalf}
 # The HYPER key
 # ======================================
  
-alias hyper ctrl;shift;alt;cmd
+# https://github.com/tekezo/Karabiner-Elements/issues/16#issuecomment-249549967
+alias hyper f19
 
 # Layouts (first keyboard row)
 bind q:${hyper} layout laptop
