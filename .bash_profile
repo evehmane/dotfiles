@@ -16,7 +16,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 shopt -s histappend
 
 # This is needed to make rubber work.
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages/:${PYTHONPATH}
+# export PYTHONPATH=/usr/local/lib/python2.7/site-packages/:${PYTHONPATH}
 
 # Enable bash autocompletion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
