@@ -45,3 +45,8 @@ use_env() {
 export PATH=/Applications/Postgres.app/Contents/Versions/9.5/bin:$PATH;
 
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
+
+# Setup terminal colors. See https://stackoverflow.com/a/5485184 and
+# https://geoff.greer.fm/lscolors/.
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
