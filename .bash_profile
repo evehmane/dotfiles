@@ -50,3 +50,5 @@ export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH;
 # https://geoff.greer.fm/lscolors/.
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+
+eval "$(direnv hook bash)"
