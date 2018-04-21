@@ -66,3 +66,6 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # This is needed to make rubber work.
 # export PYTHONPATH=/usr/local/lib/python2.7/site-packages/:${PYTHONPATH}
+
+# QuickBI variables
+source ~/quickbi/.exports
