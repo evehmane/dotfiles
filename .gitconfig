@@ -8,6 +8,7 @@
     df = diff
     st = status
     dmerged = !git branch --merged master | grep -v \"\\*\" | grep -v \"  master\" | xargs -n 1 git branch -D
+    backup = !git checkout -b backup/$(git rev-parse --abbrev-ref HEAD)/$(date +%Y%m%d-%H%M%S) && git checkout -
 [branch]
     autosetuprebase = always
 [color]
