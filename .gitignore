@@ -7,3 +7,6 @@
 
 # Autoenv
 .env
+
+# Direnv
+.envrc
