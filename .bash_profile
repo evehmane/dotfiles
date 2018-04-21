@@ -9,6 +9,9 @@ unset file
 # Initialize autoenv
 source /usr/local/bin/activate.sh
 
+# Initialize direnv
+eval "$(direnv hook bash)"
+
 # Initialize virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh
 
@@ -40,5 +43,3 @@ use_env() {
 }
 
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
-
-eval "$(direnv hook bash)"
