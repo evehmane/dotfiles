@@ -57,3 +57,12 @@ export VIRTUALENVWRAPPER_SCRIPT=/usr/local/share/python/virtualenvwrapper.sh
 
 # Postgres.app command-line binaries
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH";
+
+# Setup terminal colors. See https://stackoverflow.com/a/5485184 and
+# https://geoff.greer.fm/lscolors/.
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+# This is needed to make rubber work.
+# export PYTHONPATH=/usr/local/lib/python2.7/site-packages/:${PYTHONPATH}

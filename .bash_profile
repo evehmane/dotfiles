@@ -15,9 +15,6 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Append history entries
 shopt -s histappend
 
-# This is needed to make rubber work.
-# export PYTHONPATH=/usr/local/lib/python2.7/site-packages/:${PYTHONPATH}
-
 # Enable bash autocompletion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
@@ -42,13 +39,6 @@ use_env() {
   fi
 }
 
-export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH;
-
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
-
-# Setup terminal colors. See https://stackoverflow.com/a/5485184 and
-# https://geoff.greer.fm/lscolors/.
-export CLICOLOR=1
-export LSCOLORS=GxFxCxDxBxegedabagaced
 
 eval "$(direnv hook bash)"
