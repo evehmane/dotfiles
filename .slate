@@ -68,9 +68,8 @@ bind r:${hyper} sequence layout notes | focus 'Google Chrome' | focus 'TextWrang
 bind a:${hyper} focus 'iTerm2'
 bind s:${hyper} focus 'Sublime Text'
 bind d:${hyper} focus 'Google Chrome'
-bind f:${hyper} focus 'TextWrangler'
-bind g:${hyper} focus 'Wunderlist'
-bind h:${hyper} focus 'Flowdock'
+bind f:${hyper} focus 'TeXturi'
+bind g:${hyper} focus 'Flowdock'
 
 # Grids
 bind z:${hyper} grid padding:5 0:2,2 
