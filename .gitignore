@@ -1,5 +1,6 @@
 *~
 .DS_Store
+prepush_git_hook.sh
 
 # Sublime Text 2 project files
 *.sublime-project
