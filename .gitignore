@@ -11,3 +11,6 @@ prepush_git_hook.sh
 
 # Direnv
 .envrc
+
+# iTermocil
+iTermocil.yml
