@@ -18,3 +18,5 @@ if [ `uname` == "Darwin" ]; then
 else
     alias ls='ls --color=auto'
 fi
+
+alias etl="python etl.py"
