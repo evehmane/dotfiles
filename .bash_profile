@@ -49,3 +49,8 @@ if [ -f '/Users/eero/google-cloud-sdk/path.bash.inc' ]; then source '/Users/eero
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/eero/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/eero/google-cloud-sdk/completion.bash.inc'; fi
+
+# Pyenv
+export PATH="/Users/eero/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
