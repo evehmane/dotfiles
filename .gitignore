@@ -12,7 +12,11 @@ prepush_git_hook.sh
 # Direnv
 .envrc
 
+# Docker
+.dockerenv
+
 # iTermocil
 iTermocil.yml
 
-.dockerenv
+# pyenv
+.python-version
